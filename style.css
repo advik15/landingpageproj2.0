@@ -1,0 +1,150 @@
+.body
+{
+    display: flex;
+    flex-direction: column;
+}
+.header_container
+{
+    display: flex;
+    background-color:#1F2937 ;
+    align-items: center;
+    height:80px;
+    justify-content: space-between;
+}
+
+.headerlink_container
+{
+    display: flex;
+    background-color:#1F2937 ;
+    align-items: center;
+    height:80px;
+    gap: 30px;
+}
+.headerlogo
+{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 200px;
+}
+a{
+    font-size: 18px;
+    color:#E5E7EB;
+    text-decoration: none;
+}
+.linkthree
+{
+    margin-right: 200px;
+}
+.subheader_container
+{
+    display: flex;
+    background-color:#1F2937 ;
+    align-items: center;
+    height:250px;
+    justify-content: space-evenly;
+}
+.subheaderleft_container
+{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 200px;
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.subheader_title
+{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+.subheader_description
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.subheader_button
+{
+    background-color: #3882F6;
+}
+.subheaderimg
+{
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+.infosection_container
+{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infotitle
+{
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    margin-bottom: 25px;
+}
+
+.info_container{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 1000px;
+}
+.infoboxcontainer
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+.box
+{
+    width: 100px;
+    height: 100px;
+    border:5px solid cornflowerblue
+}
+.randominfo
+{
+    font-size: 18px;
+    flex-wrap: wrap;
+    margin: 2px;
+    text-align: center;
+}
+.quote_container
+{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    align-items: flex-end;
+}
+.quote
+{
+    display: flex;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.author
+{
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: end;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
